@@ -1,0 +1,83 @@
+{
+    "products":[
+       { "id": 1,
+        "name": "iPhone 12 pro",
+        "desc": "Apple iPhone 12th generation",
+        "price": 99999,
+        "color": "#33505a",
+        "image": "assets/images/iphone12.png"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 13 pro",
+        "desc": "Apple iPhone 13th generation",
+        "price": 99999,
+        "color": "#33505a",
+        "image": "assets/images/iphone13.png"
+
+    },
+    {
+        "id": 3,
+        "name": "iPhone 13 pro max",
+        "desc": "Apple iPhone 13th generation",
+        "price": 99999,
+        "color": "#33505a",
+        "image": "assets/images/iphone13promax.png"
+
+    },
+    {
+        "id": 4,
+        "name": "Earpods",
+        "desc": "Apple Earpods",
+        "price": 499,
+        "color": "#33505a",
+        "image": "assets/images/Earpods.png"
+
+    },
+    {
+        "id": 5,
+        "name": "macbook",
+        "desc": "M1 macbook air",
+        "price": 2299,
+        "color": "#33505a",
+        "image": "assets/images/macbook.png"
+
+    },
+    {
+        "id": 6,
+        "name": "Ipad",
+        "desc": "Apple Ipad",
+        "price": 999,
+        "color": "#33505a",
+        "image": "assets/images/ipad.png"
+
+    },
+    {
+        "id": 7,
+        "name": "Macbook pro",
+        "desc": "Apple mackbook pro",
+        "price":12009,
+        "color": "#33505a",
+        "image": "assets/images/macbookpro.png"
+
+    },
+    {
+        "id": 8,
+        "name": "Galaxy S24",
+        "desc": "samsung galaxy S24 ultra 12GB",
+        "price": 1500,
+        "color": "#33505a",
+        "image": "assets/images/samsung.png"
+
+    },
+    {
+        "id": 9,
+        "name": "Headset",
+        "desc": "Headset indigo sparkle",
+        "price": 300,
+        "color": "#33505a",
+        "image": "assets/images/headset.png"
+
+    }
+    ]
+}
