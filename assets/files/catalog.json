@@ -1,26 +1,29 @@
 {
     "products":[
-       { "id": 1,
-        "name": "iPhone 12 pro",
-        "desc": "Apple iPhone 12th generation",
-        "price": 99999,
-        "color": "#33505a",
-        "image": "assets/images/iphone12.png"
-    },
+        {
+            "id": 1,
+            "name": "Ipad",
+            "desc": "Apple Ipad",
+            "price": 999,
+            "color": "#33505a",
+            "image": "assets/images/ipad.png"
+    
+        },
+       
     {
         "id": 2,
-        "name": "iPhone 13 pro",
-        "desc": "Apple iPhone 13th generation",
-        "price": 99999,
+        "name": "iPhone 15 pro max",
+        "desc": "Apple iPhone 15 pro max blue titanium",
+        "price": 1250,
         "color": "#33505a",
-        "image": "assets/images/iphone13.png"
+        "image": "assets/images/iphone15promax.jpeg"
 
     },
     {
         "id": 3,
         "name": "iPhone 13 pro max",
         "desc": "Apple iPhone 13th generation",
-        "price": 99999,
+        "price": 631,
         "color": "#33505a",
         "image": "assets/images/iphone13promax.png"
 
@@ -43,15 +46,14 @@
         "image": "assets/images/macbook.png"
 
     },
-    {
-        "id": 6,
-        "name": "Ipad",
-        "desc": "Apple Ipad",
-        "price": 999,
+    { "id": 6,
+        "name": "Dell Inspiron.jpeg",
+        "desc": "Dell 15 Inch Inspiron 3520 Laptop",
+        "price": 1250,
         "color": "#33505a",
-        "image": "assets/images/ipad.png"
-
+        "image": "assets/images/dell15thgen.jpeg"
     },
+    
     {
         "id": 7,
         "name": "Macbook pro",
@@ -72,11 +74,29 @@
     },
     {
         "id": 9,
+        "name": "iPhone 13",
+        "desc": "Apple iPhone 13th generation",
+        "price": 1025,
+        "color": "#33505a",
+        "image": "assets/images/iphone13.png"
+
+    },
+    {
+        "id": 10,
         "name": "Headset",
         "desc": "Headset indigo sparkle",
         "price": 300,
         "color": "#33505a",
         "image": "assets/images/headset.png"
+
+    },
+    {
+        "id": 11,
+        "name": "Sony speakers",
+        "desc": "Sony-srs-xp500 portable wireless speaker",
+        "price": 300,
+        "color": "#33505a",
+        "image": "assets/images/sonyspeaker.jpeg"
 
     }
     ]

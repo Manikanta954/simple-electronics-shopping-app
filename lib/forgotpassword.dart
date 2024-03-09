@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:tryapp/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -31,7 +32,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
             child: Column(
           children: [
             Image.asset(
-              "assets/images/log_in.png",
+              "assets/images/forgotpassword.png",
               height: 286,
               width: 400,
               fit: BoxFit.cover,
@@ -39,9 +40,10 @@ class _ForgotPasswordState extends State<ForgotPassword> {
             const SizedBox(
               height: 20.0,
             ),
-            const Text(
+            Text(
               "Reset your password",
               style: TextStyle(
+                fontFamily: GoogleFonts.poppins().fontFamily,
                 fontWeight: FontWeight.bold,
                 fontSize: 23,
               ),
@@ -116,12 +118,29 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                     ),
                   ),
                 ),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: "Go back".text.make(),
-                )
+                HeightBox(20),
+                Material(
+                    borderRadius: BorderRadius.circular(8.3),
+                    color: const Color.fromARGB(255, 87, 59, 243),
+                    shadowColor: const Color.fromARGB(255, 165, 164, 164),
+                    child: InkWell(
+                      onTap: () => Navigator.pop(context),
+                      child: AnimatedContainer(
+                        duration: const Duration(seconds: 1),
+                        alignment: Alignment.center,
+                        decoration: const BoxDecoration(),
+                        width: 310,
+                        height: 65,
+                        child: Text(
+                          "Go back",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18.2,
+                              fontWeight: FontWeight.w500,
+                              fontFamily: GoogleFonts.poppins().fontFamily),
+                        ),
+                      ),
+                    ))
               ]),
             )
           ],
