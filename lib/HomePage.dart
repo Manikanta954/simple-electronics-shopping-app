@@ -49,7 +49,11 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () =>
                     Navigator.pushNamed(context, MyRoutes.cartRoute),
                 backgroundColor: MyTheme.darkbluishColor,
-                child: Icon(CupertinoIcons.cart),
+                shape: const CircleBorder(),
+                child: const Icon(
+                  CupertinoIcons.cart,
+                  color: Colors.white,
+                ),
               ).badge(
                   color: Vx.gray300,
                   size: 22,

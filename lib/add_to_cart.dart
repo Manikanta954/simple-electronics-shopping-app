@@ -30,7 +30,13 @@ class AddToCart extends StatelessWidget {
             ),
             shape: MaterialStateProperty.all(const StadiumBorder())),
         child: isInCart
-            ? const Icon(Icons.done)
-            : const Icon(CupertinoIcons.cart_badge_plus));
+            ? const Icon(
+                Icons.done,
+                color: Colors.white,
+              )
+            : const Icon(
+                CupertinoIcons.cart_badge_plus,
+                color: Colors.white,
+              ));
   }
 }

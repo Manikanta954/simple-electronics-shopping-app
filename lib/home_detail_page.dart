@@ -42,7 +42,7 @@ class HomeDetailPage extends StatelessWidget {
                         content: "Buying not supported yet".text.make(),
                       ));
                     },
-                    child: "Buy".text.bold.make())
+                    child: "Buy".text.bold.color(Colors.white).make())
                 .wh(100, 50)
           ],
         ).wh(100, 50).p32(),
@@ -74,11 +74,12 @@ class HomeDetailPage extends StatelessWidget {
                       "${catalog.desc}".text.make(),
                       "Experience cutting-edge technology with the iPhone 12. Boasting a stunning Super Retina XDR display, A14 Bionic chip, and 5G capability, this sleek device delivers unparalleled performance. Capture breathtaking moments with the advanced dual-camera system and enjoy the seamless integration of iOS 15. Elevate your mobile experience with the iPhone 12."
                           .text
-                          .color(Color.fromARGB(255, 64, 60, 60))
-                          .maxFontSize(14)
+                          .color(const Color.fromARGB(255, 45, 44, 44))
+                          .maxFontSize(15)
                           .wordSpacing(1)
                           .make()
                           .p24()
+                          .expand()
                     ],
                   ).py64(),
                 ),
