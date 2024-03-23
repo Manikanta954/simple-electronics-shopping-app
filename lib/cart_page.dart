@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tryapp/cart.dart';
 import 'package:tryapp/core/store.dart';
+import 'package:tryapp/payment.dart';
 import 'package:tryapp/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -48,9 +49,11 @@ class _CartTotal extends StatelessWidget {
           20.widthBox.expand(),
           ElevatedButton(
                   onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                      content: "Buying not supported yet".text.make(),
-                    ));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Payement()));
+                    // ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                    //   content: "Buying not supported yet".text.make(),
+                    // ));
                   },
                   style: ButtonStyle(
                       backgroundColor:

@@ -107,13 +107,13 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                               Icons.done,
                               color: Colors.white,
                             )
-                          : const Text(
+                          : Text(
                               'Confirm',
                               style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18.2,
-                                fontWeight: FontWeight.w500,
-                              ),
+                                  color: Colors.white,
+                                  fontSize: 18.2,
+                                  fontWeight: FontWeight.w500,
+                                  fontFamily: GoogleFonts.poppins().fontFamily),
                             ),
                     ),
                   ),
