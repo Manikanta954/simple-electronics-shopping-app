@@ -39,14 +39,23 @@ class _LoginPageState extends State<LoginPage> {
           key: _formKey,
           child: Column(
             children: [
-              Image.asset(
-                "assets/images/hey.png",
-                height: 286,
-                width: 400,
-                fit: BoxFit.cover,
+              const SizedBox(
+                height: 20,
+              ),
+              SafeArea(
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 65.0,left: 30),
+                  child: Image.asset(
+                    height: 250,
+                    width:150,
+                    "assets/images/sayhello.png",
+                      
+                    fit: BoxFit.cover,
+                  ),
+                ),
               ),
               const SizedBox(
-                height: 20.0,
+                height: 8.0,
               ),
               Text(
                 "Welcome $name",
@@ -56,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               const SizedBox(
-                height: 20.0,
+                height: 12.0,
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
